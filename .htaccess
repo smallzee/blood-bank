@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^invite/(.*)/?$ invite.php?username=$1 [NC,L]
+RewriteRule ^pages/(.*)/?$ page.php?slug=$1 [NC,L]
